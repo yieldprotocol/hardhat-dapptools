@@ -2,7 +2,7 @@
   "name": "hardhat-dapptools",
   "version": "0.1.0",
   "description": "Hardhat dapptools integration",
-  "license": "AGPL-3.0-only",
+  "license": "MIT",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "keywords": [
@@ -12,6 +12,10 @@
     "hardhat-plugin",
     "dapptools"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yieldprotocol/hardhat-dapptools.git"
+  },
   "scripts": {
     "lint:fix": "prettier --write 'src/**/*.{js,ts}' 'test/**/*.{js,ts}' && tslint --fix --config tslint.json --project tsconfig.json",
     "lint": "tslint --config tslint.json --project tsconfig.json",
