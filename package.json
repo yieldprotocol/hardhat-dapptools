@@ -1,5 +1,5 @@
 {
-  "name": "hardhat-dapptools",
+  "name": "@yield-protocol/hardhat-dapptools",
   "version": "0.1.0",
   "description": "Hardhat dapptools integration",
   "license": "MIT",
