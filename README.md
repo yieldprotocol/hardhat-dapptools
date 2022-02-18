@@ -12,13 +12,13 @@ This plugin does precisely that - takes your hardhat project and generates a sou
 ## Installation
 
 ```bash
-npm install hardhat-dapptools
+yarn add -D @yield-protocol/hardhat-dapptools
 ```
 
 Import the plugin in your `hardhat.config.ts`:
 
 ```ts
-import "hardhat-dapptools"
+import "@yield-protocol/hardhat-dapptools"
 ```
 
 ## Tasks
